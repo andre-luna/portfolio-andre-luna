@@ -112,3 +112,84 @@ footer a {
 footer p {
   margin: 8px 0;
 }
+
+
+.script-request-link {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.script-request-link .button {
+  background-color: #ae7fe5;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1.1em;
+  text-decoration: none;
+  transition: background 0.3s, transform 0.2s ease;
+  display: inline-block;
+}
+
+.script-request-link .button:hover {
+  background-color: #944fde;
+  transform: scale(1.05);
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 40px 30px;
+  border: 2px solid #e5d3f7;
+  border-radius: 16px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.container h1 {
+  color: #7b3fe4;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container p {
+  text-align: center;
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+form label {
+  font-weight: 600;
+  color: #444;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 2px solid #d1a7f2;
+  border-radius: 8px;
+  font-size: 1em;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+form button {
+  background-color: #ae7fe5;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s ease;
+}
+
+form button:hover {
+  background-color: #944fde;
+  transform: scale(1.05);
+}
+
+
